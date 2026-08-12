@@ -23,8 +23,10 @@ Criação de 7 views para relatórios de negócio, como:
 `vw_carros_verdes` — identificação de carros elétricos
 `vw_vendas_recentes` — classificação de vendas antigas x recentes
 `BD-DML.sql`
+
 Banco de dados de uma biblioteca (`db_biblioteca`), com as tabelas `autor`, `editora` e `livro`. Traz exemplos de comandos `ALTER TABLE` (renomear tabela/coluna, adicionar e remover colunas, alterar tipos) e `INSERT`.
 `db_barreto.sql`
+
 Banco de dados simples de clientes e pedidos (`db_barreto`), demonstrando os comandos básicos de DML: `INSERT`, `UPDATE`, `DELETE` e uso de `LIKE`/curinga em filtros.
 `triggers.sql`
 Exemplo prático de trigger no MySQL (`tutorial_triggers`): ao inserir um novo pedido na tabela `pedidos`, a trigger `atualiza_data_ultimo_pedido` atualiza automaticamente a data do último pedido na tabela `clientes`.
@@ -51,5 +53,5 @@ Automatização com triggers
 ## 📌 Autor
 *Ezequias Barreto* - Desenvolvido como parte de estudos práticos em banco de dados SQL.
 
-📃 Licença
+## 📃 Licença
 Este projeto é de uso livre para fins de estudo.
